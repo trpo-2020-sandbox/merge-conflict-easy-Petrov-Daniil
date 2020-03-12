@@ -20,7 +20,6 @@ int main()
 {
     int arr[] = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3};
 
-<<<<<<< HEAD
     const int min = min_element(arr, N_ELEMENTS(arr));
 
     printf("Array: ");
