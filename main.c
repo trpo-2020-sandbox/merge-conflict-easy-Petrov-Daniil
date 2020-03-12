@@ -23,7 +23,7 @@ int main()
     const int min = min_element(arr, N_ELEMENTS(arr));
 
     printf("Array: ");
-    for (i=0; i < N_ELEMENTS(arr); ++i) {
+    for (int i=0; i < N_ELEMENTS(arr); ++i) {
         printf(", %d", arr[i]);
     }
     printf("\n");
