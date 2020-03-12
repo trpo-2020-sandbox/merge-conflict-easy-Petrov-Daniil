@@ -28,14 +28,6 @@ int main()
     int i;
     for (i=0; i < N_ELEMENTS(arr); ++i) {
         printf(", %d", arr[i]);
-=======
-    const int min = min_element(arr, 10);
-
-    printf("Array: ");
-    int i;
-    for (i = 0; i < 10; ++i) {
-        printf("%d ", arr[i]);
->>>>>>> master
     }
     printf("\n");
 
